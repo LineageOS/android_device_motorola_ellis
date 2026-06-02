@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/motorola/ellis
 
+# Display
+TARGET_SCREEN_DENSITY := 280
+
 # Inherit from the common tree
 include device/motorola/mt6765-common/BoardConfigCommon.mk
 
