@@ -1,1 +1,29 @@
-#
+# Unpinned blobs from XT2163-4_ELLIS_RETUS_12_S3RHS32.20-42-13-3-6-6_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml
+
+# Touch
+vendor/firmware/djn_nt36525b_a_novatek_ts_fw.bin:recovery/root/vendor/firmware/djn_nt36525b_a_novatek_ts_fw.bin
+vendor/firmware/djn_nt36525b_a_novatek_ts_mp.bin:recovery/root/vendor/firmware/djn_nt36525b_a_novatek_ts_mp.bin
+vendor/firmware/djn_nt36525b_novatek_ts_fw.bin:recovery/root/vendor/firmware/djn_nt36525b_novatek_ts_fw.bin
+vendor/firmware/djn_nt36525b_novatek_ts_mp.bin:recovery/root/vendor/firmware/djn_nt36525b_novatek_ts_mp.bin
+vendor/firmware/Himax_firmware.bin:recovery/root/vendor/firmware/Himax_firmware.bin
+vendor/firmware/Himax_mpfw.bin:recovery/root/vendor/firmware/Himax_mpfw.bin
+vendor/firmware/hx_criteria.csv:recovery/root/vendor/firmware/hx_criteria.csv
+vendor/firmware/ILITEK_FW_TXD:recovery/root/vendor/firmware/ILITEK_FW_TXD
+vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
+vendor/firmware/NT36xxx_MP_Setting_Criteria_603E.csv:recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_603E.csv
+vendor/firmware/NT36xxx_MP_Setting_Criteria_6051.csv:recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6051.csv
+vendor/firmware/NT36xxx_MP_Setting_Criteria_6059.csv:recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6059.csv
+vendor/firmware/djn_nt36525b_a_novatek_ts_fw.bin
+vendor/firmware/djn_nt36525b_a_novatek_ts_mp.bin
+vendor/firmware/djn_nt36525b_novatek_ts_fw.bin
+vendor/firmware/djn_nt36525b_novatek_ts_mp.bin
+vendor/firmware/Himax_firmware.bin
+vendor/firmware/Himax_mpfw.bin
+vendor/firmware/hx_criteria.csv
+vendor/firmware/ILITEK_FW_TXD
+vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_mp.bin
+vendor/firmware/NT36xxx_MP_Setting_Criteria_603E.csv
+vendor/firmware/NT36xxx_MP_Setting_Criteria_6051.csv
+vendor/firmware/NT36xxx_MP_Setting_Criteria_6059.csv
