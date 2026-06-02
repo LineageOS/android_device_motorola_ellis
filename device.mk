@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # Display
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
