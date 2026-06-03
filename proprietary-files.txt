@@ -27,3 +27,8 @@ vendor/firmware/novatek_ts_mp.bin
 vendor/firmware/NT36xxx_MP_Setting_Criteria_603E.csv
 vendor/firmware/NT36xxx_MP_Setting_Criteria_6051.csv
 vendor/firmware/NT36xxx_MP_Setting_Criteria_6059.csv
+
+# NVRAM
+vendor/bin/nvram_daemon
+vendor/etc/init/nvram_daemon.rc
+vendor/lib/libcustom_nvram.so
