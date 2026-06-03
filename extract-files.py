@@ -18,6 +18,8 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'hardware/mediatek',
+    'hardware/mediatek/libmtkperf_client',
     'vendor/motorola/mt6765-common',
 ]
 
