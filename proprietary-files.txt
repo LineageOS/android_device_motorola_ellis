@@ -1,5 +1,28 @@
 # Unpinned blobs from XT2163-4_ELLIS_RETUS_12_S3RHS32.20-42-13-3-6-6_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml
 
+# Audio
+vendor/firmware/fs1603.fsm
+vendor/firmware/fs1603s.fsm
+vendor/lib/hw/audio.primary.mt6765.so
+vendor/lib/libaudiocompensationfilter_vendor.so
+vendor/lib/libaudiocompensationfilterc.so
+vendor/lib/libaudiocustparam_vendor.so
+
+# Audio (Params)
+vendor/etc/audio_device.xml
+vendor/etc/audio_em.xml
+vendor/etc/audio_param/AudioParamOptions_vext.xml
+vendor/etc/audio_param/AudioParamOptions.xml
+vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml
+vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml
+vendor/etc/audio_param/Record_AudioParam.xml
+vendor/etc/audio_param/RecordFIR_AudioParam.xml
+vendor/etc/audio_param/Speech_AudioParam.xml
+vendor/etc/audio_param/SpeechDMNR_AudioParam.xml
+vendor/etc/audio_param/SpeechVol_AudioParam.xml
+vendor/etc/audio_param/VoIPv2_AudioParam.xml
+vendor/etc/audio_param/VoIPVol_AudioParam.xml
+
 # Touch
 vendor/firmware/djn_nt36525b_a_novatek_ts_fw.bin:recovery/root/vendor/firmware/djn_nt36525b_a_novatek_ts_fw.bin
 vendor/firmware/djn_nt36525b_a_novatek_ts_mp.bin:recovery/root/vendor/firmware/djn_nt36525b_a_novatek_ts_mp.bin
