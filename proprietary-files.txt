@@ -32,3 +32,6 @@ vendor/firmware/NT36xxx_MP_Setting_Criteria_6059.csv
 vendor/bin/nvram_daemon
 vendor/etc/init/nvram_daemon.rc
 vendor/lib/libcustom_nvram.so
+
+# NVRAM (Customisation) - from XT2165-5_TONGA_RETUS_12_S3RQS32.20-42-10-9-12_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml
+vendor/lib64/libcustom_nvram.so|4cd01c28f01d37e29512dd3e350742aac2283075
