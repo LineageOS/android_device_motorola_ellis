@@ -17,6 +17,9 @@ TARGET_SCREEN_WIDTH := 720
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Sensors
+$(call soong_config_set,android_hardware_sensors_aidl_multihal,run_32bit,true)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

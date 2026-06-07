@@ -59,6 +59,15 @@ vendor/lib/libcustom_nvram.so
 # NVRAM (Customisation) - from XT2165-5_TONGA_RETUS_12_S3RQS32.20-42-10-9-12_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml
 vendor/lib64/libcustom_nvram.so|4cd01c28f01d37e29512dd3e350742aac2283075
 
+# Sensors
+vendor/etc/motorola/sensors/mot_sensor_settings.json
+vendor/firmware/AbovCapSense.BIN
+vendor/lib/hw/sensors.mt6765.so
+vendor/lib/libakm.so;FIX_SONAME
+vendor/lib/libksensor.so
+vendor/lib/libsensor_custom.so
+vendor/lib/sensors.moto.so
+
 # TEE
 vendor/app/mcRegistry/020b0000000000000000000000000000.drbin
 vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin
