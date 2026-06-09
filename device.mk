@@ -14,6 +14,12 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayEllis \
+    SettingsProviderOverlayEllis \
+    SystemUIOverlayEllis
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
