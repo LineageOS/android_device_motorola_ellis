@@ -33,6 +33,12 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
     'vendor/lib/sensors.moto.so': blob_fixup()
         .add_needed('libbase_shim.so'),
+    'vendor/lib/libcam.utils.sensorprovider.so': blob_fixup()
+        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+    ('vendor/lib/libmtkcam_stdutils.so', 'vendor/lib/hw/android.hardware.camera.provider@2.6-impl-mediatek.so'): blob_fixup()
+        .replace_needed('libutils.so', 'libutils-v32.so'),
+    ('vendor/lib/lib3a.flash.so', 'vendor/lib/libSQLiteModule_VER_ALL.so'): blob_fixup()
+        .add_needed("liblog.so"),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
