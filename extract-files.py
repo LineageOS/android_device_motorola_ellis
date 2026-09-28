@@ -40,6 +40,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libutils.so', 'libutils-v32.so'),
     ('vendor/lib/lib3a.flash.so', 'vendor/lib/libSQLiteModule_VER_ALL.so'): blob_fixup()
         .add_needed("liblog.so"),
+    'vendor/lib/libcam.hal3a.v3.so': blob_fixup()
+        .sig_replace('07 46 00 20 38 60 a0 20 0f f1 16 e9', '07 46 00 20 38 60 a0 20 be f7 ef fd')
+        .sig_replace('00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 48 78 44 4e f1 b6 bd', '02 b5 40 f2 f8 60 50 f1 22 eb 02 bd'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
