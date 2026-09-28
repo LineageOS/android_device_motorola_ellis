@@ -247,6 +247,9 @@ vendor/lib/libcustom_nvram.so
 # NVRAM (Customisation) - from XT2165-5_TONGA_RETUS_12_S3RQS32.20-42-10-9-12_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml
 vendor/lib64/libcustom_nvram.so|4cd01c28f01d37e29512dd3e350742aac2283075
 
+# SAR
+system/etc/motorola/mdmctbk/ctbk_cfg.xml:system_ext/etc/motorola/mdmctbk/ctbk_cfg.xml
+
 # Sensors
 vendor/etc/motorola/sensors/mot_sensor_settings.json
 vendor/firmware/AbovCapSense.BIN
@@ -293,3 +296,9 @@ vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin
 vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin
 vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
+
+# Wi-Fi
+vendor/firmware/wifi.cfg
+vendor/firmware/wifi_EPA.cfg
+vendor/firmware/txpowerctrl.cfg
+vendor/firmware/txpowerctrl_EPA.cfg
