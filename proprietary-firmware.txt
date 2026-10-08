@@ -1,0 +1,11 @@
+# All blobs below are extracted from XT2163-4_ELLIS_RETUS_12_S3RH32.20-42-13-3-6-7_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml
+
+gz.img;AB|621941cba132b8eeea39e5475c863619f59258b2
+lk.img;AB|c65495b2a792249e799df6f467a0a6644aa8466e
+logo.img;AB|71077f6b15b8893a757bf60a2ee987582141e371
+md1img.img;AB|5b0feee3f340caab42d5b0a055ab22aae6c6e375
+preloader.img;AB|8575aa08049e91334020ca0bc072aef25607a985
+scp.img;AB|fc4bc32558ad10efa8ca062ac6ce5daf03381ab4
+spmfw.img;AB|4635107ee78053efd7ee7c3dc5dc8ed36ba160e1
+sspm.img;AB|d1286f3f2922ce1cb562f2ee50829f436dc25c01
+tee.img;AB|4b2e1b93d7077eb674f8eb4d99be6c038957bbf5
