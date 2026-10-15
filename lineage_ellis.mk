@@ -15,4 +15,12 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g pure
 
+PRODUCT_SYSTEM_NAME := ellis_retail
+PRODUCT_SYSTEM_DEVICE := ellis
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="ellis_retail-user 12 S3RH32.20-42-13-3-6-7 ef4c1 release-keys" \
+    BuildFingerprint=motorola/ellis_retail/ellis:12/S3RH32.20-42-13-3-6-7/ef4c1:user/release-keys \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
